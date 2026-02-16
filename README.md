@@ -30,10 +30,10 @@ This project was built while transitioning into front-end development to demonst
 
 ## Screenshots
 
-### Generator
+### Generator UI
 ![Generator](assets/generator.png)
 
-### Homepage
+### Homepage UI
 ![Homepage](assets/homepage.png)
 
 --- 
