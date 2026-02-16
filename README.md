@@ -30,11 +30,11 @@ This project was built while transitioning into front-end development to demonst
 
 ## Screenshots
 
-### Home
-![Home](assets/homepage.png)
-
 ### Generator
 ![Generator](assets/generator.png)
+
+### Homepage
+![Homepage](assets/homepage.png)
 
 --- 
 
