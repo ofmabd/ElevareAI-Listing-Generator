@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ElevareAI — Listing Generator</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <main class="wrap">
+    <header class="top">
+      <img src="logo.png" alt="ElevareAI logo" class="logo" />
+      <p class="sub">Smarter Listings. Faster Sales.</p>
+    </header>
+
+    <section class="card">
+      <h2>Listing Generator</h2>
+
+      <div class="grid">
+        <label>
+          Address
+          <input id="address" placeholder="123 Willow Lane, Frederick, MD" />
+        </label>
+
+        <label>
+          Beds/Baths
+          <input id="bedsBaths" placeholder="4 bd · 3 ba" />
+        </label>
+
+        <label>
+          Square Feet
+          <input id="sqft" placeholder="2,450" />
+        </label>
+
+        <label>
+          Style/Aesthetic
+          <input id="style" placeholder="Modern, light-filled" />
+        </label>
+
+        <label class="full">
+          Highlights (comma separated)
+          <input id="highlights" placeholder="Quartz counters, finished basement, pool, 2-car garage" />
+        </label>
+      </div>
+
+      <button id="generateBtn">Generate</button>
+      <p id="status" class="status"></p>
+
+      <div class="out">
+        <div class="out-head">
+          <h3>Output</h3>
+          <button id="copyBtn" class="ghost" disabled>Copy</button>
+        </div>
+        <pre id="output">Fill in the details and click Generate.</pre>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
