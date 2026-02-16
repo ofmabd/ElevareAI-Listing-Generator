@@ -19,14 +19,13 @@ Option 1:
 - Open `index.html` in your browser
 
 Option 2 (recommended):
+
 ```bash
 python3 -m http.server 8080
 
-## Purpose 
+## Purpose
 
 This project was built while transitioning into front-end development to demonstrate practical UI skills, including handling user input, updating the interface dynamically with JavaScript, and building clean, structured layouts. The goal was to create a simple but realistic tool that focuses on usability, visual clarity, and real-world functionality rather than complexity.
-
----
 
 ## Screenshots
 
@@ -36,6 +35,6 @@ This project was built while transitioning into front-end development to demonst
 ### Homepage
 ![Homepage](assets/homepage.png)
 
---- 
+---
 
 Built by Darius Bamfo
